@@ -1,7 +1,9 @@
 class Bank {
 
     bankName = 'Access Bank';
+
     CustomerName = 'Peter KHMZ';
+    name = prompt("Enter your name");
 
     constructor(amount) {
         this.amount = amount
